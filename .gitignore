@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+
+# CMake build directory
+MiniOS/build/
+
+# VS Code (optional, remove if you want to share settings)
+# .vscode/
+
+# Binary executables
+*.o
+*.out
+*.bin
+*.exe
