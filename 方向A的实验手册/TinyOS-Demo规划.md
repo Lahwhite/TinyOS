@@ -92,7 +92,7 @@ TinyOS/
 - `drivers/vga.h/c`：直接写 VGA 显存（物理地址 0xB8000）打印字符
 - 实模式 → 保护模式的切换（GDT 初始化）
 
-**里程碑：** `qemu-system-i386 -fda tinyos.img` 启动后看到文字
+**里程碑：** `qemu-system-i386 -drive format=raw,if=floppy,file=tinyos.img` 启动后看到文字
 
 ---
 
